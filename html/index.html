@@ -1,377 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/with youtube/template 1 take 2/css/normalize.css">
-    <link rel="stylesheet" href="/with youtube/template 1 take 2/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Template 1 - take 2</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- start landing page -->
     <div class="landing-page">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="header">
-                <div class="logo">LOGO</div>
-                <div class="links-container">
-                    <ul class="nav">
-                        <li><a href="#" data-section=".about-us">About Us</a></li>
-                        <li><a href="#" data-section=".skills">Skills</a></li>
-                        <li><a href="#" data-section=".gallery">Gallery</a></li>
-                        <li><a href="#" data-section=".timeline">Timeline</a></li>
-                        <li><a href="#" data-section=".features">Features</a></li>
-                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
-                        <li><a href="#" data-section=".contact">Contact Us</a></li>
-                    </ul>
-                </div>
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header">
+          <div class="logo">LOGO</div>
+          <div class="links-container">
+            <ul class="nav">
+              <li><a href="#" data-section=".about-us">About Us</a></li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+              <li><a href="#" data-section=".contact">Contact Us</a></li>
+            </ul>
+          </div>
 
-                <button class="toggle-menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-              
-            </div>
-            <div class="intro-text">
-                <h1>We are <span>creative</span> agency</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sint repellat saepe voluptates, accusamus dolore id. Quisquam dolor sunt perspiciatis voluptatem iusto expedita quo quis deserunt, nisi adipisci mollitia quaerat quidem voluptatibus? Animi, nihil qui. Ipsum quasi quia, qui odio vitae minus dignissimos dolore illum unde, eos commodi, maiores dolorum.</p>
-            </div>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
+        <div class="intro-text">
+          <h1>We are <span>creative</span> agency</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            sint repellat saepe voluptates, accusamus dolore id. Quisquam dolor
+            sunt perspiciatis voluptatem iusto expedita quo quis deserunt, nisi
+            adipisci mollitia quaerat quidem voluptatibus? Animi, nihil qui.
+            Ipsum quasi quia, qui odio vitae minus dignissimos dolore illum
+            unde, eos commodi, maiores dolorum.
+          </p>
         </div>
-        <!-- end landing page -->
-      
+      </div>
+    </div>
+    <!-- end landing page -->
+
     <!-- start settings box -->
     <div class="setting-box toggle" id="setting-box">
-        <h1>Settings</h1>
-        <div class="custom-loader" id="setting-icon"></div>
+      <h1>Settings</h1>
+      <div class="custom-loader" id="setting-icon"></div>
 
-        <div class="box">
-            <h2>Change Color</h2>
+      <div class="box">
+        <h2>Change Color</h2>
 
-            <ul class="color-btns">
-                <li data-color="orange" id="orange"></li>
-                <li data-color="green"  id="green"></li>
-                <li data-color="yellow" id="yellow"></li>
-                <li data-color="purple" id="purple"></li>
-            </ul>
+        <ul class="color-btns">
+          <li data-color="orange" id="orange"></li>
+          <li data-color="green" id="green"></li>
+          <li data-color="yellow" id="yellow"></li>
+          <li data-color="purple" id="purple"></li>
+        </ul>
+      </div>
+      <div class="box">
+        <h2>Random Background Option</h2>
+        <div class="color-options">
+          <span class="on" data-option="true" id="on">ON</span>
+          <span data-option="false off" id="off" class="active">OFF</span>
         </div>
-        <div class="box">
-            <h2>Random Background Option</h2>
-            <div class="color-options">
-                <span class=" on" data-option="true" id="on">ON</span>
-                <span data-option="false off" id="off" class="active">OFF</span>
-            </div>
+      </div>
+      <div class="box">
+        <h2>Navigation Bullets</h2>
+        <div class="nav-bullets-option">
+          <span id="show" data-bullets="show">Show</span>
+          <span id="hide" data-bullets="hide">Hide</span>
         </div>
-        <div class="box">
-            <h2>Navigation Bullets</h2>
-            <div class="nav-bullets-option">
-            <span id="show" data-bullets="show">Show</span>
-            <span id="hide" data-bullets="hide">Hide</span>
-        </div>
-        </div>
+      </div>
     </div>
-
 
     <!-- end settings box -->
 
     <!-- start nav bullets -->
     <div class="nav-bullets">
-        <div class="bullet" data-section=".about-us"><div class="tool-tip">
-            About Us
-
-        </div>
-    </div>
-        <div class="bullet" data-section=".skills"><div class="tool-tip">
-            Our Skills
-
-        </div>
-    </div>
-        <div class="bullet" data-section=".gallery"><div class="tool-tip">
-            Our Gallery
-
-        </div>
-    </div>
-        <div class="bullet" data-section=".timeline"><div class="tool-tip">
-            Timeline
-        </div>
-        </div>
-        <div class="bullet" data-section=".features"><div class="tool-tip">
-            Features
-        </div>
-        </div>
-        <div class="bullet" data-section=".testimonials"><div class="tool-tip">
-            Testimonials
-        </div>
-    </div>
-    <div class="bullet" data-section=".contact"><div class="tool-tip">
-        Contact Us
-    </div>
-    </div>
-
+      <div class="bullet" data-section=".about-us">
+        <div class="tool-tip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tool-tip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tool-tip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tool-tip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tool-tip">Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tool-tip">Testimonials</div>
+      </div>
+      <div class="bullet" data-section=".contact">
+        <div class="tool-tip">Contact Us</div>
+      </div>
     </div>
     <!-- end nav bullets -->
 
-
-
     <!-- start about us -->
     <div class="container">
-        <div class="about-us">
-            <div class="info-box">
-                <h2>About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad non corporis nesciunt voluptatem quam iste nisi eligendi consequuntur, saepe suscipit adipisci distinctio a inventore, eum et? Excepturi vel consequuntur magni esse repellendus ut at nesciunt quaerat ducimus sapiente, corporis laborum laudantium eius accusamus dicta, aliquam doloremque sit dignissimos omnis asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eveniet, exercitationem soluta debitis rerum accusantium laboriosam ducimus iste nisi illum consequuntur et enim. Quas, fuga quod nulla ab necessitatibus laborum!</p>
-            </div>
-            <div class="image-box">
-                <img src="/with youtube/template 1 take 2/imgs/biophilic-design-workspace-abstract-concept-vector-illustration_107173-24984.avif" alt="">
-            </div>
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad non
+            corporis nesciunt voluptatem quam iste nisi eligendi consequuntur,
+            saepe suscipit adipisci distinctio a inventore, eum et? Excepturi
+            vel consequuntur magni esse repellendus ut at nesciunt quaerat
+            ducimus sapiente, corporis laborum laudantium eius accusamus dicta,
+            aliquam doloremque sit dignissimos omnis asperiores. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Ab eveniet,
+            exercitationem soluta debitis rerum accusantium laboriosam ducimus
+            iste nisi illum consequuntur et enim. Quas, fuga quod nulla ab
+            necessitatibus laborum!
+          </p>
         </div>
+        <div class="image-box">
+          <img
+            src="../imgs/biophilic-design-workspace-abstract-concept-vector-illustration_107173-24984.avif"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
     <!-- end about us -->
     <!-- start our skills -->
     <div class="skills">
-        <div class="container">
-            <h2>Our Skills</h2>
-            <div class="skill-box">
-                <div class="skill-name">HTML</div>
-            <div class="skill-progress">
-                <span data-progress="50%"></span>
-            </div>
-            </div>
-            
-            <div class="skill-box">
-                <div class="skill-name">CSS</div>
-            <div class="skill-progress">
-                <span data-progress="50%"></span>
-            </div>
-            </div>
-
-            <div class="skill-box">
-                <div class="skill-name">JavaScript</div>
-            <div class="skill-progress">
-                <span data-progress="30%"></span>
-            </div>
-            </div>
-            
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="50%"></span>
+          </div>
         </div>
+
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="50%"></span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="30%"></span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- end our skills -->
 
     <!-- start our gallery -->
     <div class="gallery">
-        <div class="container">
-            <h2>Our Gallery</h2>
-            <div class="imgs-box">
-                <img src="/with youtube/template 1 take 2/imgs/01.jpg" alt="img1">
-                <img src="/with youtube/template 1 take 2/imgs/02.jpg" alt="img2">
-                <img src="/with youtube/template 1 take 2/imgs/03.jpg" alt="img3">
-                <img src="/with youtube/template 1 take 2/imgs/04.jpg" alt="img4">
-                <img src="/with youtube/template 1 take 2/imgs/05.jpg" alt="img5">
-                <img src="/with youtube/template 1 take 2/imgs/06.jpg" alt="img6">
-                <img src="/with youtube/template 1 take 2/imgs/07.jpg" alt="img7">
-                <img src="/with youtube/template 1 take 2/imgs/08.jpg" alt="img8">
-                <img src="/with youtube/template 1 take 2/imgs/09.jpg" alt="img9">
-                <img src="/with youtube/template 1 take 2/imgs/010.jpg" alt="img10">
-            </div>
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="imgs-box">
+          <img src="../imgs/01.jpg" alt="img1" />
+          <img src="../imgs/02.jpg" alt="img2" />
+          <img src="../imgs/03.jpg" alt="img3" />
+          <img src="../imgs/04.jpg" alt="img4" />
+          <img src="../imgs/05.jpg" alt="img5" />
+          <img src="../imgs/06.jpg" alt="img6" />
+          <img src="../imgs/07.jpg" alt="img7" />
+          <img src. <img src="../imgs/09.jpg" alt="img9" />
+          <img src="../imgs/010.jpg" alt="img10" />
         </div>
+      </div>
     </div>
-
 
     <!-- end our gallery -->
 
     <!-- start timeline -->
     <div class="timeline">
-        <div class="container">
-            <div class="timeline-content">
-                <div class="year">2023</div>
-                <div class="t-left">
-                    <div class="content">
-                        <h3>Test heading</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione dolorum similique, assumenda mollitia porro laboriosam officiis fuga quae facilis atque iure eum quibusdam nobis blanditiis maiores suscipit quia veniam pariatur fugit! Voluptatum consequuntur impedit tempora totam ad labore sunt optio, culpa ducimus laborum ea odio saepe, omnis accusantium inventore.</p>
-
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="t-right">
-                    <div class="content">
-                        <h3>Test heading</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique error vero at nostrum adipisci eaque aperiam illum recusandae quasi, assumenda dolor sit? Fuga ipsa, modi assumenda voluptate rem soluta expedita aperiam inventore totam quam est ex eaque architecto. Nisi dolorum voluptate eaque magni labore, quisquam quam molestiae iste illum ad.</p>
-
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="year">2022</div>
-                <div class="t-left">
-                    <div class="content">
-                        <h3>Test heading</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione dolorum similique, assumenda mollitia porro laboriosam officiis fuga quae facilis atque iure eum quibusdam nobis blanditiis maiores suscipit quia veniam pariatur fugit! Voluptatum consequuntur impedit tempora totam ad labore sunt optio, culpa ducimus laborum ea odio saepe, omnis accusantium inventore.</p>
-
-                    </div>
-                </div>
-                <div class="t-right">
-                    <div class="content">
-                        <h3>Test heading</h3>
-                        <p>Lorem ipsum dolor, sit amet comagni labore, quisquam quam molestiae iste illum ad.</p>
-
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="year">2021</div>
-                <div class="t-right">
-                    <div class="content">
-                        <h3>Test heading</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique error vero at nostrum adipisci eaque aperiam illum recusandae quasi, assumenda dolor sit? Fuga ipsa, modi assumenda voluptate rem soluta expedita aperiam inventore totam quam est ex eaque architecto. Nisi dolorum voluptate eaque magni labore, quisquam quam molestiae iste illum ad.</p>
-
-                    </div>
-                </div>
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2023</div>
+          <div class="t-left">
+            <div class="content">
+              <h3>Test heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                ratione dolorum similique, assumenda mollitia porro laboriosam
+                officiis fuga quae facilis atque iure eum quibusdam nobis
+                blanditiis maiores suscipit quia veniam pariatur fugit!
+                Voluptatum consequuntur impedit tempora totam ad labore sunt
+                optio, culpa ducimus laborum ea odio saepe, omnis accusantium
+                inventore.
+              </p>
             </div>
-         
+          </div>
+          <div class="clearfix"></div>
+          <div class="t-right">
+            <div class="content">
+              <h3>Test heading</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Similique error vero at nostrum adipisci eaque aperiam illum
+                recusandae quasi, assumenda dolor sit? Fuga ipsa, modi assumenda
+                voluptate rem soluta expedita aperiam inventore totam quam est
+                ex eaque architecto. Nisi dolorum voluptate eaque magni labore,
+                quisquam quam molestiae iste illum ad.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2022</div>
+          <div class="t-left">
+            <div class="content">
+              <h3>Test heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+                ratione dolorum similique, assumenda mollitia porro laboriosam
+                officiis fuga quae facilis atque iure eum quibusdam nobis
+                blanditiis maiores suscipit quia veniam pariatur fugit!
+                Voluptatum consequuntur impedit tempora totam ad labore sunt
+                optio, culpa ducimus laborum ea odio saepe, omnis accusantium
+                inventore.
+              </p>
+            </div>
+          </div>
+          <div class="t-right">
+            <div class="content">
+              <h3>Test heading</h3>
+              <p>
+                Lorem ipsum dolor, sit amet comagni labore, quisquam quam
+                molestiae iste illum ad.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2021</div>
+          <div class="t-right">
+            <div class="content">
+              <h3>Test heading</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Similique error vero at nostrum adipisci eaque aperiam illum
+                recusandae quasi, assumenda dolor sit? Fuga ipsa, modi assumenda
+                voluptate rem soluta expedita aperiam inventore totam quam est
+                ex eaque architecto. Nisi dolorum voluptate eaque magni labore,
+                quisquam quam molestiae iste illum ad.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- end timeline -->
 
     <!-- start our features -->
     <div class="features">
-        <h2>Our Features</h2>
-        <div class="container">
-            <div class="features-con">
-                <div class="feature-box">
-                    <img src="/with youtube/template 1 take 2/imgs/feat-1.png" alt="">
-                    <h4>Development</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt esse aliquam totam ratione nostrum voluptatum delectus ducimus voluptate dolorem magni. Quos rem sint neque tenetur? Magnam facere animi magni reiciendis?</p>
-                </div>
-                <div class="feature-box">
-                    <img src="/with youtube/template 1 take 2/imgs/feat-2.png" alt="">
-                    <h4>Development</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt esse aliquam totam ratione nostrum voluptatum delectus ducimus voluptate dolorem magni. Quos rem sint neque tenetur? Magnam facere animi magni reiciendis?</p>
-                </div>
-                <div class="feature-box">
-                    <img src="/with youtube/template 1 take 2/imgs/feat-3.png" alt="">
-                    <h4>Development</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt esse aliquam totam ratione nostrum voluptatum delectus ducimus voluptate dolorem magni. Quos rem sint neque tenetur? Magnam facere animi magni reiciendis?</p>
-                </div>
-            </div>
-            <div class="features-con">
-                <div class="feature-box">
-                    <img src="/with youtube/template 1 take 2/imgs/feat-4.png" alt="">
-                    <h4>Development</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt esse aliquam totam ratione nostrum voluptatum delectus ducimus voluptate dolorem magni. Quos rem sint neque tenetur? Magnam facere animi magni reiciendis?</p>
-                </div>
-                <div class="feature-box">
-                    <img src="/with youtube/template 1 take 2/imgs/feat-5.png" alt="">
-                    <h4>Development</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt esse aliquam totam ratione nostrum voluptatum delectus ducimus voluptate dolorem magni. Quos rem sint neque tenetur? Magnam facere animi magni reiciendis?</p>
-                </div>
-                <div class="feature-box">
-                    <img src="/with youtube/template 1 take 2/imgs/feat-6.png" alt="">
-                    <h4>Development</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt esse aliquam totam ratione nostrum voluptatum delectus ducimus voluptate dolorem magni. Quos rem sint neque tenetur? Magnam facere animi magni reiciendis?</p>
-                </div>
-            </div>
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="features-con">
+          <div class="feature-box">
+            <img src="../imgs/feat-1.png" alt="" />
+            <h4>Development</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+              esse aliquam totam ratione nostrum voluptatum delectus ducimus
+              voluptate dolorem magni. Quos rem sint neque tenetur? Magnam
+              facere animi magni reiciendis?
+            </p>
+          </div>
+          <div class="feature-box">
+            <img src="../imgs/feat-2.png" alt="" />
+            <h4>Development</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+              esse aliquam totam ratione nostrum voluptatum delectus ducimus
+              voluptate dolorem magni. Quos rem sint neque tenetur? Magnam
+              facere animi magni reiciendis?
+            </p>
+          </div>
+          <div class="feature-box">
+            <img src="../imgs/feat-3.png" alt="" />
+            <h4>Development</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+              esse aliquam totam ratione nostrum voluptatum delectus ducimus
+              voluptate dolorem magni. Quos rem sint neque tenetur? Magnam
+              facere animi magni reiciendis?
+            </p>
+          </div>
         </div>
+        <div class="features-con">
+          <div class="feature-box">
+            <img src="../imgs/feat-4.png" alt="" />
+            <h4>Development</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+              esse aliquam totam ratione nostrum voluptatum delectus ducimus
+              voluptate dolorem magni. Quos rem sint neque tenetur? Magnam
+              facere animi magni reiciendis?
+            </p>
+          </div>
+          <div class="feature-box">
+            <img src="../imgs/feat-5.png" alt="" />
+            <h4>Development</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+              esse aliquam totam ratione nostrum voluptatum delectus ducimus
+              voluptate dolorem magni. Quos rem sint neque tenetur? Magnam
+              facere animi magni reiciendis?
+            </p>
+          </div>
+          <div class="feature-box">
+            <img src="../imgs/feat-6.png" alt="" />
+            <h4>Development</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+              esse aliquam totam ratione nostrum voluptatum delectus ducimus
+              voluptate dolorem magni. Quos rem sint neque tenetur? Magnam
+              facere animi magni reiciendis?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-            </div>
-        
     <!-- end our features -->
 
     <!-- start testimonials -->
     <div class="testimonials">
-        <div class="container">
-            <h2>Testimonials</h2>
-            <div class="ts-div">
-            <div class="ts-box">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, sint!</p>
-                <div class="person-info">
-                    <img src="https://placehold.co/80x80" alt="">
-                <h4>Nageeb suariz</h4>
-                <p>CEO at company</p>
-                </div>
-                
-
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="ts-div">
+          <div class="ts-box">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+              sint!
+            </p>
+            <div class="person-info">
+              <img src="https://placehold.co/80x80" alt="" />
+              <h4>Nageeb suariz</h4>
+              <p>CEO at company</p>
             </div>
-            <div class="ts-box">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, sint! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic officiis tenetur autem deserunt sit quia odio saepe aliquam beatae fugiat!</p>
-                <div class="person-info">
-                    <img src="https://placehold.co/80x80" alt="">
-                <h4>Hassan Shakosh</h4>
-                <p>Sales Maneger at company</p>
-                </div>
-
+          </div>
+          <div class="ts-box">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+              sint! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Hic officiis tenetur autem deserunt sit quia odio saepe aliquam
+              beatae fugiat!
+            </p>
+            <div class="person-info">
+              <img src="https://placehold.co/80x80" alt="" />
+              <h4>Hassan Shakosh</h4>
+              <p>Sales Maneger at company</p>
             </div>
-            <div class="ts-box">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, sint! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, praesentium.</p>
-                <div class="person-info">
-                    <img src="https://placehold.co/80x80" alt="">
-                <h4>Ahmed Mohsen</h4>
-                <p>Singer</p>
-                </div>      
-    </div>
-    </div>
+          </div>
+          <div class="ts-box">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis,
+              sint! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Commodi, praesentium.
+            </p>
+            <div class="person-info">
+              <img src="https://placehold.co/80x80" alt="" />
+              <h4>Ahmed Mohsen</h4>
+              <p>Singer</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- end testimonials -->
 
     <!-- start contact  us -->
     <div class="contact">
-        <div class="overlay"></div>
-        <div class="container">
-            <h2>Contact Us</h2>
-            <div class="form-box">
-                <form action="">
-                    <div class="left">
-                        <input type="text" placeholder="Your Name" name="username">
-                        <input type="email" placeholder="Your Email" name="email">
-                        <input type="text" placeholder="Phone Number" name="phone">
-                        <input type="text" placeholder="Subject" name="subject">
-    
-                    </div>
-                    <div class="right">
-                        <textarea name="message" id="" placeholder="Your Message"></textarea>
-                        <input type="submit" value="Send">
-        
-                    </div>
-                </form>
-
-
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="form-box">
+          <form action="">
+            <div class="left">
+              <input type="text" placeholder="Your Name" name="username" />
+              <input type="email" placeholder="Your Email" name="email" />
+              <input type="text" placeholder="Phone Number" name="phone" />
+              <input type="text" placeholder="Subject" name="subject" />
             </div>
-           
-            
+            <div class="right">
+              <textarea
+                name="message"
+                id=""
+                placeholder="Your Message"
+              ></textarea>
+              <input type="submit" value="Send" />
+            </div>
+          </form>
         </div>
+      </div>
     </div>
 
     <!-- end contact us -->
     <!-- start footer -->
-    <div class="footer">
-        Created With ♥ By Malek Mo
-    </div>
-
-
+    <div class="footer">Created With ♥ By Malek Mo</div>
 
     <!-- end footer -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script defer src="https://kit.fontawesome.com/c845a7e0ea.js" crossorigin="anonymous"></script>
-    <script defer src="/with youtube/template 1 take 2/js/script.js"></script>
-</body>
+    <script
+      defer
+      src="https://kit.fontawesome.com/c845a7e0ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="../js/script.js"></script>
+  </body>
 </html>
